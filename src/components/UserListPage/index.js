@@ -16,7 +16,7 @@ const UserListPage = () => {
         fetchUsers()
     },[])
     const userProfile = CustomProfilePage()
-    console.log("UserList:",userList)
+    //console.log("UserList:",userList)
 
   return (
     <div>
