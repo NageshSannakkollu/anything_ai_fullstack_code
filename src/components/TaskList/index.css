@@ -1,0 +1,62 @@
+.task_list_items_container {
+    display: flex;
+    gap: 10px;
+    padding: 0px 10px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit_icon_style {
+    height: 20px;
+    width: 40px;
+}
+
+.edit_button {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
+.delete_button{
+    color: red;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.edit_icon{
+    color: blue;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.delete_icon{
+    color: red;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+@media screen and (max-width: 767px) {
+    .buttons {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .icons {
+        display: none;
+    }
+}
+

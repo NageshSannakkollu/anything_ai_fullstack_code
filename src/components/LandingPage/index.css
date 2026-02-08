@@ -1,0 +1,63 @@
+.landing_page_main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76vh;
+}
+
+.landing_page_inside_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #054ca8;
+    font-family:monospace;
+}
+.sub_title {
+    font-size: 35px;
+    color: #0c0c0c;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+.description {
+    font-size: 14px;
+    color: #0c0c0c;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.task_list_button {
+    position: fixed;
+    right: 20px;
+    background-image: linear-gradient(to right,#fff,#2424ab,#b40775);
+    color: #fafafa;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome_title {
+        font-size: 28px;
+    }
+    .sub_title {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+}
