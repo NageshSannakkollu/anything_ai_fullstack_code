@@ -13,6 +13,9 @@
 - **Authentication**: JWT-based auth with localstorage management
 - **Security**: Row Level Security (RLS) policies
 - **API**: RESTful endpoints
+- **Credentials**:
+- ADMIN: email:admin@example.com,password:admin
+- USER: email:sreedhar@example.com ,password: sreedhar@123 
 
 ## 📦 Dependencies
 
